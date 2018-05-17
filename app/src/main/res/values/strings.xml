@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LetterGame</string>
+    <string name="teisingai">Teisingai!</string>
+    <string name="neteisingai">Neteisingai!</string>
+    <string-array name="level1strings">
+        <item>katė</item>
+        <item>medis</item>
+        <item>žolė</item>
+        <item>šuo</item>
+        <item>namas</item>
+    </string-array>
+</resources>
