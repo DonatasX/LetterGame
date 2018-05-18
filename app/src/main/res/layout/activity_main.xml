@@ -32,11 +32,11 @@
         android:layout_marginTop="8dp"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintDimensionRatio="h,1:1"
         app:layout_constraintEnd_toStartOf="@+id/guidelineMid"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/progressBar"
-        app:srcCompat="@drawable/cat" />
+        tools:srcCompat="@drawable/kate" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guidelineMid"
@@ -55,7 +55,7 @@
         android:onClick="tikrinti"
         android:text="Tikrinti"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewTask" />
 
     <EditText
         android:id="@+id/editText"
@@ -66,7 +66,6 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:hint="Rašykite žodį"
-        android:inputType="textShortMessage"
         android:visibility="visible"
         app:layout_constraintBaseline_toBaselineOf="@+id/button1"
         app:layout_constraintEnd_toStartOf="@+id/button1"
@@ -88,16 +87,29 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="36sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guidelineMid"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
         tools:text="Teisingai!" />
+
+    <TextView
+        android:id="@+id/textViewTask"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guidelineMid"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar"
+        tools:text="@string/level3task" />
 
 </android.support.constraint.ConstraintLayout>

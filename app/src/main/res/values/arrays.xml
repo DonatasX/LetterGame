@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <integer-array name="level1images">
-        <item>@drawable/cat</item>
-        <item>@drawable/tree</item>
-        <item>@drawable/grass</item>
-        <item>@drawable/dog</item>
-        <item>@drawable/house</item>
+        <item>@drawable/kate</item>
+        <item>@drawable/medis</item>
+        <item>@drawable/zole</item>
+        <item>@drawable/suo</item>
+        <item>@drawable/namas</item>
+    </integer-array>
+
+    <integer-array name="level2images">
+        <item>@drawable/batas</item>
+        <item>@drawable/vaikas</item>
+        <item>@drawable/dangus</item>
+        <item>@drawable/lova</item>
+        <item>@drawable/saule</item>
+    </integer-array>
+
+    <integer-array name="level3images">
+        <item>@drawable/baseinas</item>
+        <item>@drawable/piestukas</item>
+        <item>@drawable/telefonas</item>
+        <item>@drawable/pagalve</item>
+        <item>@drawable/bananas</item>
+    </integer-array>
+
+    <integer-array name="level4images">
+        <item>@drawable/obuolys</item>
+        <item>@drawable/lektuvas</item>
+        <item>@drawable/zirkles</item>
+        <item>@drawable/pirstine</item>
+        <item>@drawable/zaibas</item>
     </integer-array>
 </resources>
