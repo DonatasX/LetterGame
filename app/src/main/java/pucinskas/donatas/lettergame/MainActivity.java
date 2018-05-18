@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
     // Variables
     String[] level1strings;
     TypedArray level1images;
-    static boolean isCorect = false;
-    static int index = 0;
+    static boolean isCorect;
+    static int index;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
 
         level1strings = getIntent().getStringArrayExtra("level1strings");
         level1images = getResources().obtainTypedArray(getIntent().getExtras().getInt("level1imagesURL"));
+        isCorect = false;
+        index = 0;
     }
 
     // Tikrinti ar įvestas žodis yra teisingas.
@@ -58,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
             textView.setText(R.string.teisingai);
             textView.setTextColor(getResources().getColor(R.color.green));
             addProgress();
+            findViewById(R.id.button1).setClickable(false);
 
             // Jei visi klausimai atsakyti.
             if (progressBar.getProgress() == 100){
@@ -88,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
             imageView.setImageResource(level1images.getResourceId(index,-1));
             textView.setText("");
             editText.setText("");
+            findViewById(R.id.button1).setClickable(true);
         }
     }
 
