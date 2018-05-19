@@ -1,12 +1,28 @@
 <resources>
     <string name="app_name">LetterGame</string>
-    <string name="teisingai">Teisingai!</string>
-    <string name="neteisingai">Neteisingai!</string>
+
+    <string name="app_about">Ši mobilioji aplikacija yra mokomojo pobūdžio ir yra skirta vaikams.
+        Joje reikia įvesti pavadinimą daikto ar gyvūno pavaizduoto nuotraukoje.</string>
 
     <string name="level1task">Užduotis: Įveskite pavaizduoto daikto pavadinimą DIDŽIOSIOMIS raidėmis.</string>
     <string name="level2task">Užduotis: Įveskite pavaizduoto daikto pavadinimą mažosiomis raidėmis.</string>
     <string name="level3task">Užduotis: Įveskite pavaizduoto daikto pavadinimą. Pirmoji raidė turi būti didžioji.</string>
     <string name="level4task">Užduotis: Įveskite pavaizduoto daikto pavadinimą. Pirmoji raidė turi būti didžioji.</string>
+
+    <string name="level1">Level 1</string>
+    <string name="level2">Level 2</string>
+    <string name="level3">Level 3</string>
+    <string name="level4">Level 4</string>
+
+    <string name="tikrinti">Tikrinti</string>
+    <string name="kitas">Kitas</string>
+    <string name="baigti">Baigti</string>
+    <string name="hintRasyti">Rašykite žodį</string>
+    <string name="lygiai">Lygiai</string>
+    <string name="apie">Apie</string>
+    <string name="nustatymai">Nustatymai</string>
+    <string name="teisingai">Teisingai!</string>
+    <string name="neteisingai">Neteisingai!</string>
 
     <string-array name="level1strings">
         <item>KATĖ</item>
